@@ -51,7 +51,7 @@ The following images show the normal and highlighted (being pressed) button appe
 ![Invert Dark](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/invert-dark.gif?raw=true)
 ![Invert Extra Light](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/invert-extralight.gif?raw=true)
 
-````objective-c
+```objective-c
 AYVibrantButton *invertButton = [[AYVibrantButton alloc] initWithFrame:CGRectZero style:AYVibrantButtonStyleInvert];
 invertButton.vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight]];
 invertButton.text = @"Invert";
@@ -64,7 +64,7 @@ invertButton.font = [UIFont systemFontOfSize:18.0];
 ![Translucent Dark](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/translucent-dark.gif?raw=true)
 ![Translucent Extra Light](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/translucent-extralight.gif?raw=true)
 
-````objective-c
+```objective-c
 AYVibrantButton *translucentButton = [[AYVibrantButton alloc] initWithFrame:CGRectZero style:AYVibrantButtonStyleTranslucent];
 translucentButton.vibrancyEffect = [UIVibrancyEffect effectForBlurEffect:[UIBlurEffect effectWithStyle:UIBlurEffectStyleExtraLight]];
 translucentButton.text = @"Translucent";
@@ -77,7 +77,7 @@ translucentButton.font = [UIFont systemFontOfSize:18.0];
 ![Translucent Dark](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/anycolor-dark.gif?raw=true)
 ![Translucent Extra Light](https://github.com/a1anyip/AYVibrantButton/blob/master/Readme/anycolor-extralight.gif?raw=true)
 
-````objective-c
+```objective-c
 AYVibrantButton *button = [[AYVibrantButton alloc] initWithFrame:CGRectZero style:AYVibrantButtonStyleTranslucent];
 button.vibrancyEffect = nil;
 button.text = @"Any Color";
